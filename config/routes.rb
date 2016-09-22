@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   patch '/change-password/:id' => 'users#changepw'
   resources :users, only: [:index, :show]
 
-  resources :patients, only: [:index]
+  resources :patients, only: [:index, :show]
 end
+Patient.create(name: 'Jason Weeks', sickness: 'Too Awesome')

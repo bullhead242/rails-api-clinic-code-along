@@ -25,8 +25,3 @@ curl --include --request POST http://localhost:3000/patients \
   # delete
   curl --include --request DELETE http://localhost:3000/patients/3 \
       --header "Content-Type: application/json"
-
-      curl --include --request destroy http://localhost:3000/patients/3 \
-        --header "Content-Type: application/json" \
-          }
-        }'
